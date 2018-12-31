@@ -12,13 +12,13 @@ void setup(){
 
 void draw(){	
 	background(0, 0, 0);
-	line(numsquares/10);
+
 }
 
 float convx(float x){
-    return(ih[0] * x + jh[0] * x);
+    return(500 * ( ih[0] * x + jh[0] * x) + 500);
 }
 
 float convy(float y){
-    return(ih[1] * y + jh[1] * y);
+    return(-500 * (ih[1] * y + jh[1] * y) + 500);
 }
