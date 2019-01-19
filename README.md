@@ -1,0 +1,2 @@
+# Linear-algebra-thing
+This is a small processing program I made that graphs a linear transformation when given two basis vectors. ih and jh represent the two basis vectors <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{i}" title="\hat{i}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{j}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{j}" title="\hat{j}" /></a> and [0] and [1] represent their x and y coordinates respectively. 
