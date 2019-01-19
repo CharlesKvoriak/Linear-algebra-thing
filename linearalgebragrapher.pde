@@ -54,8 +54,8 @@ void draw(){
     }  
 
     stroke(255, 0, 0);
-    line(conv(0,0)[0], conv(0,0)[1], conv(ih[0], ih[1])[0], conv(ih[0], ih[1])[1]);
-    line(conv(0,0)[0], conv(0,0)[1], conv(jh[0], jh[1])[0], conv(jh[0], jh[1])[1]);
+    line(conv(0,0)[0], conv(0,0)[1], conv(1, 0)[0], conv(1, 0)[1]);
+    line(conv(0,0)[0], conv(0,0)[1], conv(0, 1)[0], conv(0, 1)[1]);
 }
 
 float[] conv(float x, float y){
